@@ -1,2 +1,2 @@
-# infra
-infrastructure labs
+# insomniansk_infra
+insomniansk Infra repository
