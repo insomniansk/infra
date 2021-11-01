@@ -29,6 +29,7 @@ testapp_port = 9292
 
 
 Additional task 1
+Needs to update old requirements: in file Gemfile we need change version sinatra to 2.1.0 and haml to 5.0.4 at least!
 gcloud command for create instance with deployed app:
 gcloud compute instances create reddit-app \
 --boot-disk-size=10GB \
