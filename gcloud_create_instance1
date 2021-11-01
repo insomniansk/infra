@@ -4,4 +4,5 @@ gcloud compute instances create reddit-app\
   --image-project=ubuntu-os-cloud \
   --machine-type=e2-micro \
   --tags puma-server \
+  --us-central1 \
   --restart-on-failure
