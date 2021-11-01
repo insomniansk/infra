@@ -24,7 +24,7 @@ someinternalhost_IP = 10.128.0.3
 
 HW-06
 Connect top app:
-testapp_IP = 35.198.167.169
+testapp_IP = 34.123.153.68
 testapp_port = 9292
 
 
