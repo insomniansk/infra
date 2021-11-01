@@ -38,7 +38,7 @@ gcloud compute instances create reddit-app \
 --tags puma-server \
 --restart-on-failure \
 --zone=us-central1-a \
---metadata=startup-script-url="https://drive.google.com/file/d/1nGBd6r7wj4vDYjCZv__X0zzhR2Iti_hC/view?usp=sharing"
+--metadata=startup-script-url="https://raw.githubusercontent.com/insomniansk/infra/cloud-testapp/startup_script.sh"
 
 Additional task 2
 gcloud command for create firewall rule:
