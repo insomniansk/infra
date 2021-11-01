@@ -6,6 +6,7 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" \
 | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
 #Update system packages
+apt install -y apt-transport-https ca-certificates
 apt update && apt upgrade -y
 #Install Ruby packages
 apt install -y ruby-full ruby-bundler build-essential
