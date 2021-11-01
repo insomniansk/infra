@@ -9,7 +9,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb
 apt update && apt upgrade -y
 #Install Ruby packages
 apt install -y ruby-full ruby-bundler build-essential
-gem install -y bundler:1.16.1
+gem install bundler:1.16.1
 # Install and configure MongoDb
 apt install -y mongodb-org
 systemctl start mongod
