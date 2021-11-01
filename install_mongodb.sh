@@ -6,7 +6,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb
 #Update system packages
 apt install -y apt-transport-https ca-certificates
 apt update && apt upgrade
-# Install and configure MongoDb
+# Install and configure MongoDb1
 apt install -y mongodb-org
 systemctl start mongod
 systemctl enable mongod
