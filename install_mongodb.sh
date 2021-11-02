@@ -1,6 +1,7 @@
 #!/bin/bash
 #Additional repos
 curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -
+apt update
 apt install lsb_release
 if  lsb_release -c | grep -q 'focal'
 then
