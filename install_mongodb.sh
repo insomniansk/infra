@@ -2,7 +2,7 @@
 #Additional repos
 curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -
 apt update
-apt install lsb_release
+apt install lsb-release
 if  lsb_release -c | grep -q 'focal'
 then
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" \
