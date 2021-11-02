@@ -13,6 +13,7 @@ elif lsb_release -c | grep -q 'xenial'
 then
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.4 multiverse" \
 | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+fi
 #Update system packages
 apt install -y apt-transport-https ca-certificates
 apt update && apt upgrade
