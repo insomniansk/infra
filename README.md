@@ -49,3 +49,8 @@ cloud compute firewall-rules create default-puma-server \
 --direction=INGRESS \
 --source-ranges="0.0.0.0/0" \
 --target-tags="puma-server"
+
+HW-07
+Created packer scripts with uncommited variables.json and commited variables.json.example file for create and store custom vm image in gcloud.
+!!Created immutable.json with deployed app, but systemd service for puma not working.
+Created script create-reddit-vm.sh for auto-create amd launch vm instance from our custom image.

@@ -1,0 +1,10 @@
+{
+  "project_id" : "yourid",
+  "source_image_family" : "ubuntu-1604-lts",
+  "machine_type" : "e2-micro",
+  "image_description" : "Image for reddit-app base",
+  "disk_size" : "10",
+  "disk_type" : "pd-standard",
+  "network" : "default",
+  "tags" : "network_tag"
+}
