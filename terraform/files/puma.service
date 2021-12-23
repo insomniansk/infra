@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=gcpuser
-WorkingDirectory=/home/reddit-app/reddit
+WorkingDirectory=/home/gcpuser/reddit
 ExecStart=/bin/bash -lc 'puma'
 Restart=always
 
