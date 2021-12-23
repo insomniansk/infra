@@ -56,7 +56,7 @@ Created packer scripts with uncommited variables.json and commited variables.jso
 Created script create-reddit-vm.sh for auto-create amd launch vm instance from our custom image.
 
 HW-08
-Created terraform files which creates instance, firewall rule, and provisioning custom files and executing custom scripts while creating. parametrising was used in this HW.
+Created terraform files which creates instance, firewall rule, and provisioning custom files and executing custom scripts while creating. parametrising was used in this HW!
 * Added resource which adding ssh-keys for several users to project metadata:
 resource "google_compute_project_metadata" "my_ssh_keys" {
   metadata = {
