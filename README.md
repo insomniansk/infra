@@ -54,3 +54,12 @@ HW-07
 Created packer scripts with uncommited variables.json and commited variables.json.example file for create and store custom vm image in gcloud.
 !!Created immutable.json with deployed app, but systemd service for puma not working.
 Created script create-reddit-vm.sh for auto-create amd launch vm instance from our custom image.
+
+HW-08
+Created terraform files which creates instance, firewall rule, and provisioning custom files and executing custom scripts while creating. parametrising was used in this HW.
+* Added resource which adding ssh-keys for several users to project metadata:
+resource "google_compute_project_metadata" "my_ssh_keys" {
+  metadata = {
+    ssh-keys = "gcpuser1:${file(var.public_key_path)}gcpuser2:${file(var.public_key_path)}gcpuser3:${file(var.public_key_path)}"
+    }
+}
