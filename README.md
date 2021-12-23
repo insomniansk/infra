@@ -57,7 +57,7 @@ Created script create-reddit-vm.sh for auto-create amd launch vm instance from o
 
 HW-08
 Created terraform files which creates instance, firewall rule, and provisioning custom files and executing custom scripts while creating. parametrising was used in this HW!
-* Added resource which adding ssh-keys for several users to project metadata:
+Added resource which adding ssh-keys for several users to project metadata:
 resource "google_compute_project_metadata" "my_ssh_keys" {
   metadata = {
     ssh-keys = "gcpuser1:${file(var.public_key_path)}gcpuser2:${file(var.public_key_path)}gcpuser3:${file(var.public_key_path)}"
